@@ -2,6 +2,8 @@
 
 ## Description
 
+`Machine --> Syslog to DSM Log Center --> Syslog to Wazuh`
+
 **What ?** This script aims to forward Synology Log Center events and log databases to a Syslog server.
 
 **Why ?** Because Synology can't receive AND forward received logs to a syslog server. It can only send local logs.  
@@ -50,7 +52,9 @@ Now let's say you upoad the script here : `/volume1/logs/syslog-forwarder.py`. C
 
 ![Task Settings](assets/task-cmd.png)
 
-You can test if the task run smoothly by checking the output. It needs to be print "Successfuly read Log Center !".
+You can test if the task run smoothly by checking the output. It needs to be print "Successfuly read Log Center !". It would look like this :
+
+![Task output](assets/task-result.png)
 
 ## Todo
 
